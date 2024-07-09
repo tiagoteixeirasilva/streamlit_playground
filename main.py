@@ -5,7 +5,7 @@ from tasks import task_manager
 def main():
     st.title("Life Organizer")
     
-    menu = ["Home", "Tasks", "Goals", "Reminders", "Events"]
+    menu = ["Home", "Tasks", "Goals", "", "Events"]
     choice = st.sidebar.selectbox("Menu", menu)
     
     if choice == "Home":
